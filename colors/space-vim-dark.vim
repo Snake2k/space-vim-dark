@@ -95,14 +95,14 @@ endfunction
 
 let s:fg = 249
 let s:bg = get(g:, 'space_vim_dark_background', 235)
-let s:bg = max([s:bg, 233])
+let s:bg = 'None'
 
 let s:bias = s:bg - 235
-let s:bg0 = s:bg - 1
-let s:bg1 = s:bg + 1
-let s:bg2 = s:bg + 2
-let s:bg3 = s:bg + 3
-let s:bg4 = s:bg + 4
+let s:bg0 = 'None' 
+let s:bg1 = 'None' 
+let s:bg2 = 'None' 
+let s:bg3 = 'None' 
+let s:bg4 = 'None' 
 
 " call s:hi(item, fg, bg, cterm, gui)
 
